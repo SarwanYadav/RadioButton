@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    tools:context=".MainActivity">
+
+    <RadioGroup
+        android:id="@+id/radioGroup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#95eab0">
+
+        <TextView
+            android:id="@+id/heading"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:fontFamily="sans-serif"
+            android:includeFontPadding="false"
+            android:text="@string/which_is_your_favourite_color"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="25sp" />
+
+        <RadioButton
+            android:id="@+id/Red"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/red" />
+
+        <RadioButton
+            android:id="@+id/Green"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/green" />
+
+        <RadioButton
+            android:id="@+id/Yellow"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/yellow" />
+
+        <RadioButton
+            android:id="@+id/pink"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/pink" />
+    </RadioGroup>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:background="#C1D5D2"
+        android:text="Select Your Color" />
+
+</LinearLayout>

@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Day5 RadioButton</string>
+    <string name="sweets">Sweets</string>
+    <string name="pizaa">Pizaa</string>
+    <string name="which_is_your_favourite_color">Which is your Favourite Color</string>
+    <string name="red">Red</string>
+    <string name="green">Green</string>
+    <string name="yellow">Yellow</string>
+    <string name="pink">Pink</string>
+</resources>
